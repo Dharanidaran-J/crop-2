@@ -1,0 +1,31 @@
+# Environments & Secrets
+.env
+*.env
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Database files (if SQLite fallback is used locally)
+*.sqlite3
+*.db
+
+# Model checkpoints & large training dumps if re-generated
+# keep models/crop_yield_model.joblib tracked if needed or ignore large binaries
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & temp
+*.log
+instance/
+.pytest_cache/
